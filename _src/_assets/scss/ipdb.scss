@@ -1,0 +1,76 @@
+@import 'variables';
+@import 'mixins';
+@import 'typography';
+
+// Components
+@import 'grid';
+@import 'buttons';
+@import 'forms';
+@import 'code';
+@import 'media';
+@import 'icons';
+@import 'sections';
+@import 'menus';
+@import 'header';
+@import 'footer';
+@import 'logo';
+@import 'caretakers';
+@import 'board';
+@import 'alerts';
+@import 'cookiebanner';
+@import 'syntax';
+@import 'oceanprotocol';
+
+.content--page--markdown {
+    padding-top: $spacer * 2;
+}
+
+.social-list {
+    margin: 0;
+    padding: 0;
+
+    li { display: inline; }
+
+    a {
+        display: inline-block;
+        padding: $spacer / 4 0;
+        margin: 0 $spacer / 2;
+
+        &:hover,
+        &:focus {
+            transform: translateY(-1px);
+        }
+
+        &:active {
+            transform: none;
+        }
+    }
+
+    .icon {
+        width: $font-size-base;
+        height: $font-size-base;
+    }
+}
+
+.social-link {
+    display: inline-block;
+    border: 1.5px solid $brand-02;
+    border-radius: $border-radius;
+    padding: $spacer / 2;
+    width: 2rem;
+    height: 2rem;
+    line-height: 1;
+
+    &:hover,
+    &:focus {
+        transform: translateY(-1px);
+    }
+
+    &:active {
+        transform: none;
+    }
+
+    svg {
+        fill: $brand-04;
+    }
+}

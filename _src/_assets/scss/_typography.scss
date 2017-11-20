@@ -1,0 +1,153 @@
+@import 'variables';
+
+html {
+    font-size: $font-size-root;
+    -webkit-tap-highlight-color: transparent;
+
+    @media ($screen-lg) {
+        font-size: $font-size-root-lg;
+    }
+}
+
+body {
+    font-family: $font-family-base;
+    font-size: $font-size-base;
+    font-weight: $font-weight-normal;
+    line-height: $line-height;
+    color: $text-color;
+    background: #fff;
+    margin: 0;
+
+    // Controversial! But prevents text flickering in
+    // Safari/Firefox when animations are running
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+//
+// Quickly fade in all content after
+// fonts have loaded. Not quite useful,
+// but beautiful.
+//
+.hero,
+.header,
+.section,
+.content {
+    .row {
+        transition: .15s ease-out;
+
+        .wf-loading & {
+            opacity: 0;
+        }
+
+        .wf-active &,
+        .wf-inactive & {
+            opacity: 1;
+        }
+    }
+}
+
+
+//
+// Headings
+//
+
+/* stylelint-disable selector-list-comma-newline-after  */
+h1, h2, h3, h4, h5, h6 {
+    color: $headings-color;
+    font-family: $headings-font-family;
+    font-weight: $headings-font-weight;
+    line-height: $headings-line-height;
+
+    &:first-child {
+        margin-top: 0;
+    }
+}
+
+h1, .h1,
+h2, .h2 {
+    margin-top: $spacer * 2;
+    margin-bottom: $spacer;
+}
+
+h3, .h3,
+h4, .h4,
+h5, .h5 {
+    margin-top: $spacer * $line-height;
+    margin-bottom: $spacer / $line-height;
+}
+
+h1, .h1 { font-size: $font-size-h1; }
+h2, .h2 { font-size: $font-size-h2; }
+h3, .h3 { font-size: $font-size-h3; }
+h4, .h4 { font-size: $font-size-h4; }
+h5, .h5 { font-size: $font-size-h5; }
+
+/* stylelint-enable */
+
+
+//
+// Body text
+//
+p,
+ul,
+ol {
+    margin: 0 0 $spacer;
+}
+
+strong {
+    font-weight: $font-weight-bold;
+}
+
+
+//
+// Links
+//
+a {
+    color: $link-color;
+    text-decoration: none;
+    transition: .15s ease-out;
+
+    &:hover,
+    &:focus {
+        color: darken($link-color, 10%);
+        outline: 0;
+    }
+}
+
+
+//
+// Lists
+//
+ul,
+ol {
+    margin-left: 0;
+    padding-left: $spacer;
+
+    li {
+        margin-bottom: $spacer / 3;
+    }
+}
+
+
+.lead {
+    color: $brand-03;
+    font-size: $font-size-large;
+}
+
+
+//
+// Blockquotes
+//
+blockquote {
+    margin: $spacer * $line-height;
+    margin-left: $spacer * 3;
+    color: $brand-02;
+
+    cite {
+        display: block;
+        margin-top: $spacer / 2;
+        font-style: italic;
+    }
+}

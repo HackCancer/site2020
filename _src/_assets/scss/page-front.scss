@@ -1,0 +1,249 @@
+@import 'variables';
+
+.section--intro {
+    .section__header,
+    .grid {
+        margin-bottom: 0;
+    }
+}
+
+.section--caretakers {
+    .feature {
+        padding-left: 5rem;
+        position: relative;
+    }
+
+    .feature__image {
+        width: 4rem;
+        height: 4rem;
+        position: absolute;
+        left: 0;
+        top: 0;
+        border-radius: $border-radius;
+    }
+
+    .feature__title {
+        font-size: $font-size-h5;
+        margin-bottom: $spacer / 2;
+    }
+}
+
+.caretakers-current {
+    margin-top: $spacer * 2;
+
+    .section__title {
+        font-size: $font-size-h2;
+    }
+}
+
+.section--board {
+    .board {
+        margin-bottom: 0;
+    }
+}
+
+.section--vision {
+    .feature__image {
+        margin: 0;
+        background: $brand-07;
+        padding: $spacer;
+        padding-bottom: 0;
+        border-radius: $border-radius;
+        min-height: 9rem;
+
+        svg {
+            display: block;
+        }
+    }
+}
+
+
+.roadmap {
+    border-left: .2rem solid $brand-02;
+    margin-left: $spacer * 2;
+    padding-left: $spacer;
+    margin-top: $spacer * 4;
+    margin-bottom: $spacer * 2;
+
+    @media ($screen-sm) {
+        margin-left: $spacer * 3;
+        padding-left: 0;
+    }
+
+    @media ($screen-md) {
+        margin-left: 0;
+        border-left: 0;
+        border-bottom: .2rem solid $brand-02;
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
+
+.roadmap__step {
+    position: relative;
+    margin-bottom: $spacer * 2;
+
+    @media ($screen-md) {
+        text-align: center;
+        margin-bottom: 0;
+        padding-left: $spacer / 2;
+        padding-right: $spacer / 2;
+    }
+
+    &:after {
+        content: '\2714';
+        color: transparent;
+        text-align: center;
+        font-size: $font-size-mini;
+        line-height: 2;
+        width: 1.75rem;
+        height: 1.75rem;
+        border-radius: 50%;
+        display: inline-block;
+        background: $brand-05;
+        border: .2rem solid #fff;
+        position: absolute;
+        left: -2.95rem;
+        top: -.25rem;
+
+        @media ($screen-md) {
+            position: relative;
+            left: auto;
+            top: auto;
+            bottom: -.95rem;
+        }
+    }
+
+    &.is-complete {
+        &:after {
+            content: '\2714';
+            color: white;
+            background: $brand-success;
+        }
+    }
+
+    &.is-progress {
+        &:after {
+            background: $brand-07;
+        }
+    }
+}
+
+.roadmap__net,
+.roadmap__target {
+    margin-bottom: 0;
+}
+
+.roadmap__target {
+    color: $brand-07;
+}
+
+.roadmap__time {
+    color: $brand-02;
+    font-size: $font-size-small;
+
+    @media ($screen-md) {
+        position: absolute;
+        left: 0;
+        bottom: -70%;
+        width: 100%;
+    }
+
+    &:hover,
+    &:focus {
+        transform: translateY(-1px);
+
+        .article__title {
+            color: $link-color;
+        }
+
+        .article__image {
+            background-color: $link-color;
+        }
+    }
+
+    &:active {
+        transition: none;
+        transform: translateY(0);
+    }
+}
+
+.article__image {
+    width: 100%;
+    min-height: 6.5rem;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: $spacer / 3;
+    border: 1px solid $brand-05;
+    border-radius: $border-radius;
+}
+
+.article__title {
+    font-size: $font-size-base;
+    color: $text-color;
+    margin: 0;
+    align-self: flex-end;
+    transition: .15s ease-out;
+}
+
+.section--connect {
+    .social {
+        margin-bottom: $spacer * 3;
+    }
+
+    .social-link {
+        margin-right: $spacer / 2;
+    }
+}
+
+@keyframes noise-anim{
+  $steps:20;
+  @for $i from 0 through $steps{
+    #{percentage($i*(1/$steps))}{
+      clip:rect(random(100)+px,9999px,random(100)+px,0);
+    }
+  }
+}
+
+@keyframes noise-anim-2{
+  $steps:20;
+  @for $i from 0 through $steps{
+    #{percentage($i*(1/$steps))}{
+      clip:rect(random(100)+px,9999px,random(100)+px,0);
+    }
+  }
+}
+
+.glitch, h1:hover{
+  position:relative;
+
+  &:after{
+    content:attr(data-text);
+    position:absolute;
+    left:2px;
+    text-shadow:-1px 0 red;
+    top:0;
+    color:$brand-04;
+    background: $brand-05;
+    overflow:hidden;
+    clip:rect(0,900px,0,0); 
+    animation:noise-anim 2s infinite linear alternate-reverse;
+  }
+  &:before{
+    content:attr(data-text);
+    position:absolute;
+    left:-2px;
+    text-shadow:1px 0 blue; 
+    top:0;
+    color:$brand-04;
+    background:$brand-05;
+    overflow:hidden;
+    clip:rect(0,900px,0,0); 
+    animation:noise-anim-2 3s infinite linear alternate-reverse;
+  }
+}
+

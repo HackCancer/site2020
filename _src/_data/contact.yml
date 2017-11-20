@@ -1,0 +1,19 @@
+company: "Asociación De Ciencias De La Programación Python San Sebastián"
+address:
+    street: "P. Manuel Lardizabal 1"
+    zip: "20018"
+    city: "Donostia"
+    country: "Spain"
+email: "info@hackcancer.eu"
+email_caretakers: "info@hackcancer.eu"
+
+# All the social links
+social:
+    - name: "Twitter"
+      link: "https://twitter.com/hackcancer"
+    - name: "Facebook"
+      link: "https://facebook.com/hackcancer"
+    - name: "GitHub"
+      link: "https://github.com/hackcancer"
+      org:  "hackcancer"
+      repo: "hackcancer"

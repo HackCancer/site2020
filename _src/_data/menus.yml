@@ -1,0 +1,19 @@
+main:
+    - title: Participants 
+      url: /docs/
+    - title: FAQ
+      url: /faq/
+    - title: Contact
+      url: /contact/
+
+footer:
+    - title: Code of Conduct
+      url: /coc/
+
+legal:
+    - title: Terms
+      url: /terms/
+    - title: Privacy
+      url: /privacy/
+    - title: Imprint
+      url: /imprint/

@@ -1,0 +1,32 @@
+# The Basics
+# --------------------
+title:          "HackCancer"
+description:    "The crossroad event between Health and Data Science"
+url:            "https://hackcancer.eu"
+
+analyticsID:    ""
+
+# Form actions
+forms:
+    contact: '//formspree.io/contact@HackCancer.io'
+    newsletter: "//foundation.us15.list-manage.com/subscribe/post?u=036bac2d4e3a3ea3de876a8dd&amp;id=8a21e3e9ca"
+
+# Urls
+# --------------------
+permalink:      /:title/
+
+
+# Generator
+# --------------------
+source:         ./_src
+destination:    ./_dist
+
+
+# Plugins
+# --------------------
+plugins:
+    - jekyll-sitemap
+    - jekyll-redirect-from
+
+exclude:
+    - "*README.md"
