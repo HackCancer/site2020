@@ -3,4 +3,8 @@
 
 - name: Naru
   link: https://www.naruintelligence.com/
+  logo: false
 
+- name: GIC
+  link: https://www.ehu.eus/ccwintco/
+  logo: false

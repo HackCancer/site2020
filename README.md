@@ -1,6 +1,6 @@
 # ![HackCancer/site](_src/_assets/img/share-image.png)
 
-> A 24h Datathon 
+> A 24h Datathon
 > https://HackCancer.eu
 
 ---
@@ -171,6 +171,7 @@ At the moment, jQuery is only used for the form submissions for its simple `$.aj
 # Authors & Contributors
 
 - Gabriel de Maeztu ([@merqurio](https://github.com/merqurio))
+- Oier Echaniz ([@oiertwo](https://github.com/oiertwo))
 
 # License
 

@@ -11,10 +11,15 @@
             {% endfor %}
         </p>
     {% endif %}
+
+    <p>
+      VAT-ID: {{ contact.id}}
+    </p>
     <p>
         <a href="mailto:{{ contact.email }}">{{ contact.email }}</a>
     </p>
     <p>
+
         {{ contact.address.street }}<br />
         {{ contact.address.zip }} {{ contact.address.city }}<br />
         {{ contact.address.country }}
