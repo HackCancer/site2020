@@ -72,7 +72,7 @@ Run the following command from the repository's root folder to install all depen
 
 ```bash
 npm i && bundle install
-npm i -g gulp gulp-cli
+npm install gulpjs/gulp-cli -g
 ```
 
 ## Development build
