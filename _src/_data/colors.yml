@@ -1,17 +1,17 @@
 - name: "brand-01"
-  hex: "cc6bb3"
+  hex: "4d0083"
 
 - name: "brand-02"
-  hex: "7dacbc"
+  hex: "7224a7"
 
 - name: "brand-03"
-  hex: "093749"
+  hex: "693190"
 
 - name: "brand-04"
-  hex: "557f8d"
+  hex: "8740ba"
 
 - name: "brand-05"
-  hex: "eaf3f5"
+  hex: "d6a5f9"
 
 - name: "brand-06"
   hex: "444"
