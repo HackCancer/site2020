@@ -1,5 +1,7 @@
 main:
-    - title: Participants 
+    - title: Location
+      url: /location/ 
+    - title: Participants
       url: /docs/
     - title: FAQ
       url: /faq/
