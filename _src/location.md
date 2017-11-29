@@ -17,4 +17,4 @@ Any excuse is a good excuse to visit San Sebastián. Apart from the matchless be
 This, together with its numerous conference infrastructures, its wide range of accommodation and its strategic location promise not only a successful business trip, but also an unforgettable stay.
 
 [How to get here](https://www.sansebastiancongress.com/en/mice-city/how-to-get-here)
-[More information](https://www.sansebastianturismo.com/en/)
+/ [More information](https://www.sansebastianturismo.com/en/)
