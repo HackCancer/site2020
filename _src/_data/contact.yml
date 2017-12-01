@@ -5,8 +5,8 @@ address:
     zip: "20018"
     city: "Donostia"
     country: "Spain"
-email: "info@hackcancer.eu"
-email_caretakers: "info@hackcancer.eu"
+email: "hi@hackcancer.eu"
+email_caretakers: "hi@hackcancer.eu"
 
 # All the social links
 social:
