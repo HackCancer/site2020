@@ -1,8 +1,6 @@
 main:
     - title: Location
       url: /location/
-    - title: Participants
-      url: /docs/
     - title: Become a caretaker
       url: /helpus/
     - title: FAQ
