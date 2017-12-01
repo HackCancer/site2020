@@ -1,6 +1,6 @@
-- name: Aspanogi
-  link: http://www.aspanogi.org
-  logo: logo-aspanogi.jpg
+- name: ASPANOGI
+  link: http://aspanogi.org/index.php/es/
+  logo: false
 
 - name: GIPUZKOA CONTRAL EL CANCER
   link: http://www.hackcancer.eu
