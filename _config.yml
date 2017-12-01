@@ -2,13 +2,13 @@
 # --------------------
 title:          "HackCancer"
 description:    "The crossroad event between Health and Data Science"
-url:            "http://hackcancer.eu"
+url:            "http://hackcancer.eu/"
 
 analyticsID:    ""
 
 # Form actions
 forms:
-    contact: '//formspree.io/hi@HackCancer.io'
+    contact: 'http://formspree.io/hi@HackCancer.io'
     newsletter: "//hackcancer.us17.list-manage.com/subscribe/post?u=883c6f2a324717b0e0665c481&amp;id=b76abc1701"
 
 # Urls
