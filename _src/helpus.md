@@ -15,10 +15,10 @@ FIT &
 PREDICT
 </div>
 <div>
-#Data Mining
+# Data Mining
 Data mining implies scanning the data for any relationships, and then when one is found coming up with an interesting explanation.
 
-#Machine Learning
+# Machine Learning
 Machine Learning ML is about coding programs that automatically adjust their performance from exposure to information encoded in data. This learning is achieved via a parameterized model with tunable parameters automatically adjusted according to a performance criteria. Machine Learning can be considered a subfield of Artificial Intelligence (AI).
 </div>
 </div>
@@ -30,7 +30,7 @@ DO
 IT
 </div>
 <div>
-#Support us
+# Support us
 
 Our non-profit organisation relies on sponsors like you who see the value of supporting this kind of charitable and innovative event. Your collaboration will allow us to provide a fantastic venue, judges, talks, food, beverages, prizes and support after the hackathon for the Hack Cancer attendees. Moreover, the cash sponsors will help us reach our goal of raising over 5.000€ for the Aspanogi association.
 </div>
@@ -49,4 +49,4 @@ Other event ideas could include but are not exclusive to; webinars, goodie give 
 </div>
 </div>
 
-<a class="button button--large" href="/contact/">Contact Us</a> <a class="button button--large button--text" href="/assets/pdf/sponsors.pdf">Information in pdf</a>
+<a class="button button--large" href="/contact/">Contact Us</a> <a class="button button--large button--text" href="{{ site.url }}/assets/pdf/sponsors.pdf">Information in pdf</a>
