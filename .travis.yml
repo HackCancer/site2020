@@ -11,7 +11,8 @@ cache:
   - $TRAVIS_BUILD_DIR/node_modules
 
 before_install:
-    - nvm use 8.9.1
+    - nvm install 9.5.1
+    - nvm use 9.5.1
 
 before_script: "_ci/setup.sh"
 script: "_ci/build.sh"
