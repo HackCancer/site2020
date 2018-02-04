@@ -9,6 +9,7 @@ echo "$(tput sgr0)" # reset
 
 npm install gulpjs/gulp.git#4.0 -g
 npm install
+npm rebuild node-sass --force
 
 # Travis does that automatically after selecting ruby
 #bundle install
