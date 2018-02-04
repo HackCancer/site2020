@@ -5,7 +5,7 @@ set -e;
 ##
 ## check for pull request against master
 ##
-if [ "$TRAVIS_PULL_REQUEST" != "false" ] && [ "$TRAVIS_BRANCH" == "master" ]; then
+if [ "$TRAVIS_BRANCH" == "dev" ]; then
 
     gulp deploy --beta;
 

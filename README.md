@@ -1,11 +1,13 @@
-# ![HackCancer/site](_src/_assets/img/share-image.png)
+# HackCancer site
+
+![HackCancer/site](_src/_assets/img/logo.png)
 
 > A 24h Datathon
 > https://HackCancer.eu
 
 ---
 
-[**Live**](https://HackCancer.eu) | [**Styleguide**](https://HackCancer.eu/styleguide/)
+[**Live**](https://HackCancer.eu) | [**Development**](http://hackcancerbeta.s3-website.eu-central-1.amazonaws.com)
 
 ---
 
@@ -108,14 +110,7 @@ aws_secret_access_key = <YOUR_SECRET_ACCESS_KEY>
 ```
 
 This is all that is needed to authenticate with AWS if you've setup your credentials as the default profile.
-
-If you've set them up as another profile, say `[HackCancer]` you can grab those credentials by using the `AWS_PROFILE` variable like so:
-
-```bash
-AWS_PROFILE=HackCancer gulp deploy --live
 ```
-
-In case that you get authentication errors or need an alternative way to authenticate with AWS, check out the [AWS documentation](http://docs.aws.amazon.com/AWSJavaScriptSDK/guide/node-configuring.html).
 
 ## Staging build & beta deployment
 
