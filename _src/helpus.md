@@ -8,14 +8,6 @@ narrow: true
 ---
 
 
-# LEARN, FIT & PREDICT
-
-## Data Mining
-Data mining implies scanning the data for any relationships, and then when one is found coming up with an interesting explanation.
-
-## Machine Learning
-Machine Learning ML is about coding programs that automatically adjust their performance from exposure to information encoded in data. This learning is achieved via a parameterized model with tunable parameters automatically adjusted according to a performance criteria. Machine Learning can be considered a subfield of Artificial Intelligence (AI).
-
 # LET'S DO IT
 
 ## Support us
