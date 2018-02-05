@@ -7,6 +7,7 @@ set -e;
 ##
 if [ "$TRAVIS_BRANCH" == "dev" ]; then
 
+
     gulp deploy --beta;
 
 
@@ -22,9 +23,12 @@ else
 
     tput setaf 64 # green
     echo "---------------------------------------------"
-    echo "      ✓ nothing to deploy "
+    echo "      ✓ deploy locally"
     echo "---------------------------------------------"
     tput sgr0 # reset
+    
+
+    gulp deploy --beta;
 
 fi;
 

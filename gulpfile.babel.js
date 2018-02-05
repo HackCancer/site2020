@@ -47,7 +47,7 @@ const SRC = `${site.source}/`
 const DIST = `${site.destination}/`
 
 // deployment
-const S3BUCKET = 'wwww.hackcancer.eu'
+const S3BUCKET = 'www.hackcancer.eu'
 const S3REGION = 'eu-central-1'
 const S3BUCKET_BETA = 'hackcancerbeta'
 const S3REGION_BETA = 'eu-central-1'
@@ -391,7 +391,7 @@ export const s3 = () => {
         return
     }
 
-    src(`${DIST}**/*`)
+    return src(`${DIST}**/*`)
         .pipe($.awspublishRouter({
             cache: {
                 // cache for 5 minutes by default

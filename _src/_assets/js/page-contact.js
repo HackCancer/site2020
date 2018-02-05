@@ -1,8 +1,9 @@
 /* global jQuery */
 
 jQuery(($) => {
+    const formC = $('#form-contact')
     const _config = {
-        form: $('#form-contact'),
+        form: formC,
         formBtn: $('#form-contact').find('.button'),
         formURL: $('#form-contact').attr('action'),
         formMethod: $('#form-contact').attr('method')
@@ -13,7 +14,7 @@ jQuery(($) => {
         $.ajax({
             url: _config.formURL,
             method: _config.formMethod,
-            data: $('#form-contact').serialize(),
+            data: formC.serialize(),
             dataType: 'json',
             beforeSend() {
                 _config.formBtn
