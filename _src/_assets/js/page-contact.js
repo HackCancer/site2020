@@ -13,7 +13,7 @@ jQuery(($) => {
         $.ajax({
             url: _config.formURL,
             method: _config.formMethod,
-            data: $("#form-contact").serialize(),
+            data: $('#form-contact').serialize(),
             dataType: 'json',
             beforeSend() {
                 _config.formBtn
