@@ -10,11 +10,10 @@ jQuery(($) => {
 
     _config.form.submit((e) => {
         e.preventDefault()
-
         $.ajax({
             url: _config.formURL,
             method: _config.formMethod,
-            data: $(this).serialize(),
+            data: $("#form-contact").serialize(),
             dataType: 'json',
             beforeSend() {
                 _config.formBtn
