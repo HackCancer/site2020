@@ -8,7 +8,7 @@ analyticsID:    ""
 
 # Form actions
 forms:
-    contact: 'http://formspree.io/hi@hackcancer.eu'
+    contact: 'https://formspree.io/hi@hackcancer.eu'
     newsletter: "https://iomed.us12.list-manage.com/subscribe/post?u=4d1374c88688ad88704c94eeb&amp;id=89074ad53e"
 
 # Urls
