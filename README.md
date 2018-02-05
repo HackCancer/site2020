@@ -1,13 +1,14 @@
 # HackCancer site
+[![Build Status](https://travis-ci.org/HackCancer/site.svg?branch=master)](https://travis-ci.org/HackCancer/site) 
 
-![HackCancer/site](_src/_assets/img/logo.png)
+![HackCancer/site](_src/_assets/img/apple-touch-icon.png)
 
 > A 24h Datathon
-> https://HackCancer.eu
+> http://HackCancer.eu
 
 ---
 
-[**Live**](https://HackCancer.eu) | [**Development**](http://hackcancerbeta.s3-website.eu-central-1.amazonaws.com)
+[**Live**](http://HackCancer.eu) | [**Development**](http://hackcancerbeta.s3-website.eu-central-1.amazonaws.com)
 
 ---
 
