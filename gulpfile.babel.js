@@ -390,6 +390,7 @@ export const s3 = () => {
     } else {
         return
     }
+    console.log(`${DIST}**/*`)
 
     return src(`${DIST}**/*`)
         .pipe($.awspublishRouter({
