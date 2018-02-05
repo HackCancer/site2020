@@ -392,7 +392,7 @@ export const s3 = () => {
     }
     console.log(`${DIST}**/*`)
 
-    return src(`${DIST}**/*`, options={absolute: true})
+    return src(`${DIST}**/*`, {absolute: true})
         .pipe($.awspublishRouter({
             cache: {
                 // cache for 5 minutes by default
