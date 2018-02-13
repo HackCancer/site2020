@@ -6,7 +6,7 @@
 
         {% assign slug = (caretaker.name | downcase | replace: ' ', '-' | replace: '.', '-')  %}
 
-        <div class="grid__col grid__col--2">
+        <div class="grid__col grid__col--3">
             <a class="caretaker" href="{{ caretaker.link }}" rel="external">
                 {% if caretaker.logo == false %}
                     <span class="caretaker__name">{{ caretaker.name }}</span>

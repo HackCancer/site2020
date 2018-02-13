@@ -15,8 +15,6 @@ narrow: true
 Our non-profit organisation relies on sponsors like you who see the value of supporting this kind of charitable and innovative event. Your collaboration will allow us to provide a fantastic venue, judges, talks, food, beverages, prizes and support after the hackathon for the Hack Cancer attendees. Moreover, the cash sponsors will help us reach our goal of raising over 5.000€ for the Aspanogi association.
 
 
-![Caretakers table](/assets/img/sponsors_table.svg "Caretakers table")
-
 # NEED TO KNOW
 
 ## Tiers

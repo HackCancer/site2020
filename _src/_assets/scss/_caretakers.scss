@@ -9,7 +9,7 @@
     align-items: center;
     justify-content: center;
     box-shadow: none;
-    max-width: 130px;
+    max-width: 180px;
     margin: auto;
     height: 100%;
     transition: .25s ease-out;
@@ -36,7 +36,7 @@
 
     @media ($screen-sm) {
         height: auto;
-        max-height: 2.2rem;
+        max-height: 3.2rem;
     }
 }
 
