@@ -1,5 +1,7 @@
 ---
 layout: page
+permalink: coc/ 
+lang: site.data["active_lang"]
 
 title: Code Of Conduct 
 subtitle: Be nice.

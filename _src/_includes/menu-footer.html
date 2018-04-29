@@ -33,7 +33,7 @@
         </div>
 
         <div class="grid__col">
-            <h2 class="footer__title">Follow us</h2>
+            <h2 class="footer__title">{{ site.data.menus.socialmedia }}</h2>
             <div class="social">
                 {% for item in site.data.contact.social %}
                     <a class="social-link" href="{{ item.link }}" title="{{ item.name }}">

@@ -1,5 +1,12 @@
+
+- name: Orona
+  link: http://www.oronafundazioa.org/
+
 - name: IOMED
   link: https://iomed.es/es
+
+- name: Rotary Club Donostia 
+  link: http://www.rotaryclubsnsn.org/ 
 
 - name: NARU
   link: https://www.naruintelligence.com/
@@ -7,5 +14,3 @@
 - name: GIC
   link: http://www.ehu.eus/ccwintco/
 
-- name: Orona
-  link: http://www.oronafundazioa.org/

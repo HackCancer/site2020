@@ -7,4 +7,5 @@ group :jekyll_plugins do
     gem 'jekyll-redirect-from'
     gem 'hash-joiner'
     gem 'simple-rss'
+    gem 'jekyll-polyglot'
 end

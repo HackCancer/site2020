@@ -3,8 +3,8 @@
 
     <!-- Dynamic meta title -->
     <title>
-    {% if page.title %}
-        {{ page.title }} · {{ site.title }}
+    {% if page.title and page.front_page != true %}
+        {{ page.title[site.active_lang] }} · {{ site.title }}
     {% else %}
         {{ site.title }} · {{ site.description }}
     {% endif %}
@@ -30,7 +30,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="/assets/css/ipdb.min.css">
+    <link rel="stylesheet" href="/assets/css/hackcancer.min.css">
 
     {% if page.css %}
         <link rel="stylesheet" href="/assets/css/{{ page.css }}.min.css">

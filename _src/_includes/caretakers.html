@@ -1,6 +1,6 @@
-<div class="caretakers grid grid--half grid-medium--fit grid-medium--columns grid--justifycenter grid--gutters">
+<div class="caretakers grid grid--full grid--gutters grid-medium--half grid--justifycenter">
 
-    {% assign caretakers = (site.data.caretakers | sort: 'name')  %}
+    {% assign caretakers = (site.data.caretakers)  %}
 
     {% for caretaker in caretakers %}
 

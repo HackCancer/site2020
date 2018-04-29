@@ -1,5 +1,7 @@
 ---
 layout: page
+permalink: faq/ 
+lang: site.data["active_lang"]
 
 title: Frequently Asked Questions
 subtitle: Get answers to your most pressing questions

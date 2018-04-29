@@ -5,7 +5,7 @@
 {% if page.front_page %}
     <meta name="twitter:title" content="{{ site.title }}">
 {% else %}
-    <meta name="twitter:title" content="{{ page.title }} · {{ site.title }}">
+    <meta name="twitter:title" content="{{ page.title[site.active_lang] }} · {{ site.title }}">
 {% endif %}
 
 {% if page.url %}
@@ -34,7 +34,7 @@
 {% if page.front_page %}
     <meta property="og:title" content="{{ site.title }}">
 {% else %}
-    <meta property="og:title" content="{{ page.title }} · {{ site.title }}">
+    <meta property="og:title" content="{{ page.title[site.active_lang] }} · {{ site.title }}">
 {% endif %}
 
 {% if page.description %}

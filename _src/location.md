@@ -1,5 +1,7 @@
 ---
 layout: page
+permalink: location/ 
+lang: site.data["active_lang"]
 
 title: Location
 subtitle: Meet San Sebastian

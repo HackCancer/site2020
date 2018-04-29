@@ -1,9 +1,9 @@
 {
   "name": "HackCancer-site",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": {
-    "name": "Matthias Kretschmann",
-    "email": "matthias@bigchaindb.com"
+    "name": "Gabriel de Maeztu",
+    "email": "gabriel.maeztu@iomed.es"
   },
   "description": "The blockchain database governance the universe needs",
   "homepage": "https://HackCancer.io",

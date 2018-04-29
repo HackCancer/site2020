@@ -1,5 +1,7 @@
 ---
 layout: page
+permalink: sponsor/ 
+lang: site.data["active_lang"]
 
 title: Become a Caretaker
 subtitle: Help HackCancer Datathon

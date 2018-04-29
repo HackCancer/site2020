@@ -1,0 +1,11 @@
+<nav class="menu menu--sub menu--foundation section--background">
+    <div class="row">
+
+        <div class="menu-overflow">
+            {% for item in page.submenu[site.active_lang] %}
+            <a class="menu__link" href="{{item.link}}" data-scroll>{{item.name}}</a>
+            {% endfor %}
+        </div>
+
+    </div>
+</nav>

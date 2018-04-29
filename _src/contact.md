@@ -1,5 +1,7 @@
 ---
 layout: page
+permalink: contact/ 
+lang: site.data["active_lang"]
 
 title: Contact
 subtitle: Get in touch with the organization 

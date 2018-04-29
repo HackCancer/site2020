@@ -137,7 +137,7 @@ export const html = () => src(`${DIST}**/*.html`)
 // Styles
 //
 export const css = () => src([
-    `${SRC}_assets/scss/ipdb.scss`,
+    `${SRC}_assets/scss/hackcancer.scss`,
     `${SRC}_assets/scss/page-*.scss`
 ])
     .pipe($.if(!(isProduction || isStaging), $.sourcemaps.init()))
@@ -182,7 +182,7 @@ export const criticalCss = (done) => {
 //
 export const js = () =>
     src([
-        `${SRC}_assets/js/ipdb.js`,
+        `${SRC}_assets/js/hackcancer.js`,
         `${SRC}_assets/js/page-*.js`
     ])
         .pipe($.if(!(isProduction || isStaging), $.sourcemaps.init()))

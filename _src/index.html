@@ -2,31 +2,62 @@
 layout: page
 front_page: true
 
-title: A 24h Datathon
-subtitle: Medicine, lot of data, math and fun.
-
 css: page-front
+permalink: / 
+lang: site.active_lang
+
+narrow: false
+
+title:
+    en: A 24h Datathon against
+    es: 24h de Datathon contra el
+    eu: 24h-ko Dattathoia
+
+subtitle:
+    en: Medicine, lot of data, math and fun.
+    es: Medicina, datos, mates y risas. 
+    eu: Medikuntza, datu asko, matematikak eta lagunak.
+
+submenu:
+    en:
+    - name: Roadmap
+      link: #roadmap
+    - name: Caretakers
+      link: #caretakers
+    - name: Subscribe
+      link: #subscribe
+    es:
+    - name: Evento 
+      link: "#roadmap"
+    - name: Sponsors 
+      link: "#caretakers"
+    - name: Suscribete 
+      link: "#subscribe"
+    eu:
+    - name: Roadmap
+      link: #roadmap
+    - name: Caretakers
+      link: #caretakers
+    - name: Subscribe
+      link: #subscribe
 ---
 
-{% assign content = site.data.content-front %}
+{% assign content = site.data.index %}
 
 <section class="section section--intro">
     <div class="row">
         <header class="section__header">
             <div class="grid grid--full grid-small--columns grid--center grid--gutters">
-                <div class="grid__col grid__col--4">
-                    <div class="section__description">{{ content.intro | markdownify }}</div>
-                </div>
-                <div class="grid__col grid__col--2">
-                    <svg width="559" height="253" aria-labelledby="title">
-                        <title>HackCancer Governance</title>
-                        <use xlink:href="/assets/img/sprite.svg#governance"></use>
-                    </svg>
-		</div>
-		<div class="grid__col grid__col--4">
+				<div class="grid__col grid__col--4">
                     <h1 class="section__title" id="roadmap">{{ content.roadmap.title }}</h1>
                     <p class="section__description">{{ content.roadmap.description }}</p>
                 </div>
+                <div class="grid__col grid__col--2">
+                    <svg width="559" height="253" aria-labelledby="title">
+                        <title>HackCancer graph image</title>
+                        <use xlink:href="/assets/img/sprite.svg#governance"></use>
+                    </svg>
+				</div>
             </div>
         </header>
     </div>
@@ -47,7 +78,11 @@ css: page-front
 
         </div>
     </div>
-
+    <footer class="row">
+        <footer class="section__actions" style="border-top: none; margin-top: 15%;">
+			<a class="button button--primary button--large bold" href="#">{{content.roadmap.calltoaction}}</a>
+        </footer>
+    </footer>
 </section>
 
 <section class="section section--background section--caretakers" id="caretakers">
@@ -60,8 +95,6 @@ css: page-front
                 </div>
             </div>
         </header>
-
-        {% include societies.html %}
     </div>
 
 
@@ -72,7 +105,7 @@ css: page-front
             <div class="grid__col">
                 <div class="feature">
                     <svg class="feature__image" width="298" height="220" aria-labelledby="title">
-                        <title>HackCancer Governance</title>
+                        <title>Guy programming</title>
                         <use xlink:href="/assets/img/sprite.svg#distributed"></use>
                     </svg>
                     <h3 class="feature__title">{{ feature.title }}</h3>
@@ -96,29 +129,19 @@ css: page-front
 
     <footer class="row">
         <footer class="section__actions">
-            <a href="/helpus/" class="button button--large button--text">Become a caretaker</a>
+            <a href="/helpus/" class="button button--large button--text">{{ content.caretakers.calltoaction }}</a>
         </footer>
     </footer>
 </section>
 
 <section class="section section--intro" id="subscribe">
-    {% include form-newsletter.html %}
+	<div class="row">
+		<div class="grid grid--full grid-medium--columns grid--center grid--gutters">
+			<div class="grid__col grid__col--6">
+				<h2 class="section__title">{{ content.newsletter.title }}</h2>
+				{% include form-newsletter.html %}
+			</div>
+		</div>
+	</div>
 </section>
 
-<!--
-<section class="section section--board" id="board">
-    <div class="row">
-        <header class="section__header">
-            <div class="grid grid--full grid-medium--columns grid--center grid--gutters">
-                <div class="grid__col grid__col--4">
-                    <h1 class="section__title">{{ content.board.title }}</h1>
-                    <p class="section__description">{{ content.board.description }}</p>
-                </div>
-            </div>
-        </header>
-    </div>
-
-    <div class="row">
-        {% include board.html %}
-    </div>
-</section> -->

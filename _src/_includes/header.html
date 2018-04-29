@@ -2,17 +2,20 @@
 
 <header class="header header--page">
     <div class="row">
-        <h1 class="header__title">{{ page.title }}
-	{% if page.front_page %}
-	    against <span class="glitch" data-text="cāncer">cancer.</span>
-	{% endif%}
-	</h1>
+        <h1 class="header__title">
+            {{ page.title[site.active_lang] }}
+	        {% if page.front_page %}
+                {% unless site.active_lang == "eu" %}
+	            <span class="glitch" data-text="cāncer">cancer.</span>
+                {% endunless%}
+	        {% endif%}
+	    </h1>
         {% if page.subtitle %}
-            <h2 class="header__subtitle">{{ page.subtitle }}</h2>
+        <h2 class="header__subtitle">{{ page.subtitle[site.active_lang] }}</h2>
         {% endif %}
     </div>
 
-    {% if page.front_page %}
-        {% include menu-frontpage.html %}
+    {% if page.submenu[site.active_lang] %}
+        {% include menu-submenu.html %}
     {% endif%}
 </header>

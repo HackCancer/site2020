@@ -1,5 +1,7 @@
 ---
 layout: page
+permalink: privacy/ 
+lang: site.data["active_lang"]
 
 title: Privacy policy
 

@@ -17,7 +17,7 @@
         position: absolute;
         left: 0;
         background: $brand-04;
-        top: -($edge-height-sm);
+        top: -($edge-height-sm - .1);
         clip-path: polygon(100% 0, 0% 100%, 100% 100%);
 
         @media ($screen-sm) {

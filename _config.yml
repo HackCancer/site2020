@@ -3,7 +3,6 @@
 title:          "HackCancer"
 description:    "The crossroad event between Health and Data Science"
 url:            "http://hackcancer.eu/"
-
 analyticsID:    ""
 
 # Form actions
@@ -13,7 +12,7 @@ forms:
 
 # Urls
 # --------------------
-permalink:      /:title/
+permalink: pretty
 
 
 # Generator
@@ -22,11 +21,20 @@ source:         ./_src
 destination:    ./_dist
 
 
+# Languages
+# --------------------
+languages: ["en", "es", "eu"]
+default_lang: "es"
+exclude_from_localization: ["assets"]
+parallel_localization: true
+
+
 # Plugins
 # --------------------
 plugins:
+    - jekyll-polyglot
     - jekyll-sitemap
     - jekyll-redirect-from
 
 exclude:
-    - "*README.md"
+    - "README.md"
