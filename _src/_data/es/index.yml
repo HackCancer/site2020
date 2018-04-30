@@ -8,10 +8,11 @@ roadmap:
     title: Evento 
     description: |
         Durante 24 horas, del <b>8 al 10 de junio de 2018</b>, un seleccionado
-        grupo de <b>desarrolladores y clínicos </b> se reunirán en Donostia - San
+        grupo de <b>desarrolladores y médicos </b> se reunirán en Donostia - San
         Sebastián para dar lo mejor de sí mismos para la investigación contra 
         el cáncer. 
     calltoaction: Inscribete
+    calltotimetable: Horario
     steps:
         - net: Organización
           target: Encontrar organizadores 
@@ -41,8 +42,8 @@ caretakers:
     calltoaction: Sponsoriza la investigación
     description: |
         El evento sirve de vehículo para la <b>obtener donaciones</b> para la
-        asociación ASPANOGI, que destinará el dinero obetenido para un proyecto
-        de investigación contra el cáncer infantil en el insitituto Biodonostia.
+        asociación ASPANOGI, que destinará el dinero obtenido para apoyar la
+        investigación contra el cáncer infantil desde el instituto Biodonostia.
     members:
         title: Sponsors
         description: |
@@ -52,6 +53,7 @@ caretakers:
 newsletter:
     title: Mantenete al día via email 
     placeholder: Dirección de email
+    action: Suscribirse
     promise: |
         Nunca usaremos la información de contacto para nada más que la entrega
         de nuestro boletín informativo. 

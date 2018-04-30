@@ -2,7 +2,7 @@
 # --------------------
 title:          "HackCancer"
 description:    "The crossroad event between Health and Data Science"
-url:            "http://hackcancer.eu/"
+url:            "http://hackcancer.eu"
 analyticsID:    ""
 
 # Form actions
@@ -24,6 +24,10 @@ destination:    ./_dist
 # Languages
 # --------------------
 languages: ["en", "es", "eu"]
+tongues:
+    en: English
+    es: Español
+    eu: Euskera
 default_lang: "es"
 exclude_from_localization: ["assets"]
 parallel_localization: true

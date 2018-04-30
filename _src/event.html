@@ -1,0 +1,156 @@
+---
+layout: page
+permalink: event/ 
+lang: site.active_lang
+
+title:
+    en: Event
+    es: Evento 
+    eu: Ekitaldia
+
+subtitle:
+    en: The 2018 edition. 
+    es: Edición 2018. 
+    eu: 2018ko edizioa. 
+
+submenu:
+    en:
+    - name: Registration
+      link: "#register"
+    - name: Dates &amp; Location 
+      link: "#place"
+    - name: Participants 
+      link: "#participants"
+    - name: Schedule 
+      link: "#timetable"
+    - name: Transport
+      link: "#transportation"
+    - name: Accomodation 
+      link: "#accomodation"
+    es:
+    - name: Inscripción
+      link: "#register"
+    - name: Fecha y Lugar 
+      link: "#place"
+    - name: Participantes 
+      link: "#participants"
+    - name: Horario
+      link: "#timetable"
+    - name: Transporte 
+      link: "#transportation"
+    - name: Alojamiento 
+      link: "#accomodation"
+    eu:
+    - name: Izen eman 
+      link: "#register"
+    - name: Data eta lekua 
+      link: "#place"
+    - name: Parte-hartzaileak 
+      link: "#participants"
+    - name: Ordutegia 
+      link: "#timetable"
+    - name: Garraio publikoa 
+      link: "#transportation"
+    - name: Ostatuak 
+      link: "#accomodation"
+
+narrow: true
+css: page-event
+---
+
+{% assign content = site.data.event %}
+<br>
+<h2 class="section__title">
+     {{content.description.title}}
+</h2>
+
+{{content.description.content }}
+
+<div class="row">
+	<div class="section__actions" style="border-top: none;">
+		<a class="button button--primary button--large bold" id="register" href="#">{{content.description.calltoaction}}</a>
+	</div>
+</div>
+
+<!----------------------------------------------------------------------------->
+
+<h2 class="section__title" id="place">
+     {{content.place.title}}
+</h2>
+
+{{content.place.content }}
+<div class="resp-container">
+	<iframe class="resp-iframe" frameborder="0" style="border:0;" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDMnUO9VssN12Nq0_HHlFG4GiuYNByH1eo&q=Orona fundazioa" allowfullscreen>
+	</iframe>
+</div>
+<br><br>
+
+<!----------------------------------------------------------------------------->
+
+<h2 class="section__title" id="participants">
+     {{content.participants.title}}
+</h2>
+
+{{content.participants.intro }}
+
+<br><br>
+{% for role in content.participants.roles%}
+	<ul>
+		 <li>
+			<b>{{role.name}}</b><br>
+			{{role.description}}
+		 </li>
+	</ul>
+{% endfor %}
+
+<!----------------------------------------------------------------------------->
+
+<h2 class="section__title" id="timetable">
+     {{content.timetable.title}}
+</h2>
+
+<div class="color color--brand-01" style="background-color:#a699c1; margin-top: 2rem;">
+	{% for day in content.timetable.days %}
+	<h5>{{day.str}}</h5>
+		{% for activity in day.schedule %}
+		<span class="color__meta color-hex">{{activity.time}}</span> –
+		<span class="color__meta color-name">{{activity.name}}</span>
+		<br>
+		{% endfor %}
+    {% endfor %}
+</div>
+
+
+<!----------------------------------------------------------------------------->
+
+<h2 class="section__title" id="transportation">
+     {{content.transportation.title}}
+</h2>
+
+{{content.transportation.content}}
+
+<br>
+<a class="button button--large button--text" href="{{content.transportation.link}}" target="_blank">{{content.transportation.calltoaction}}</a>
+
+<br>
+
+{{content.transportation.venue}}
+
+<br>
+<a class="button button--large button--text" href="{{content.transportation.linktovenue}}" target="_blank">{{content.transportation.calltovenue}}</a>
+
+<div class="resp-container" style="padding-top: 65.25%;">
+	<iframe class="resp-iframe" frameborder="0" style="border:0;" src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyDMnUO9VssN12Nq0_HHlFG4GiuYNByH1eo&origin=Okendo+Donostia&destination=Galarreta+Hernani" allowfullscreen>
+	</iframe>
+</div>
+<br><br>
+<!----------------------------------------------------------------------------->
+
+<h2 class="section__title" id="accomodation">
+     {{content.accomodation.title}}
+</h2>
+
+{{content.accomodation.content }}
+
+<br>
+<a class="button button--large button--text" href="{{content.accomodation.link}}" target="_blank">{{content.accomodation.calltoaction}}</a>

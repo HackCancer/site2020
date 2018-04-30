@@ -9,15 +9,26 @@
                 </svg>
             </a>
         </div>
-
         <div class="grid__col">
-            {% for link in site.data.menus.main %}
+            {% for tongue in site.languages %}
                 {% assign active = nil %}
                 {% if page.url contains link.url %}
                     {% assign active = 'active' %}
                 {% endif %}
 
-                <a class="menu__link {{ active }}" href="{{ link.url }}">{{ link.title }}</a>
+                <a
+                  class="menu__link {{ active }}"
+                  {% if tongue == site.active_lang %}
+                  style="font-weight: bold;"
+                  {% endif %}
+                  href="{% if tongue == site.default_lang %}
+                             {{site.baseurl}}{{page.url}}
+                        {% else %}
+                             {{site.baseurl}}/{{ tongue }}{{page.url}}
+                        {% endif %}
+                  ">
+                     {{ site.tongues[tongue] }}
+                </a>
             {% endfor %}
         </div>
 

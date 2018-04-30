@@ -1,0 +1,80 @@
+runtime: python27
+service: default
+api_version: 1
+threadsafe: true
+default_expiration: "5m"
+
+skip_files:
+- _ci
+- _src
+- node_modules
+- .git
+
+handlers:
+# other static files
+
+- url: /(.*\.css)
+  expiration: "2m"
+  mime_type: text/css
+  static_files: _dist/\1
+  upload: _dist/(.*\.css)
+  secure: always
+
+- url: /(.*\.html)
+  expiration: "5m"
+  mime_type: text/html
+  static_files: _dist/\1
+  upload: _dist/(.*\.html)
+  secure: always
+
+- url: /(.*\.js)
+  mime_type: text/javascript
+  static_files: _dist/\1
+  upload: _dist/(.*\.js)
+  secure: always
+
+- url: /(.*\.json)
+  mime_type: application/json
+  static_files: _dist/\1
+  upload: _dist/(.*\.json)
+  secure: always
+
+- url: /(.*\.(svg|svgz))
+  mime_type: image/svg+xml
+  static_files: _dist/\1
+  upload: _dist/(.*\.(svg|svgz))
+  secure: always
+
+- url: /(.*\.ttf)
+  mime_type: font/truetype
+  static_files: _dist/\1
+  upload: _dist/(.*\.ttf)
+  secure: always
+
+- url: /(.*\.woff)
+  mime_type: application/x-font-woff
+  static_files: _dist/\1
+  upload: _dist/(.*\.woff)
+  secure: always
+
+# images
+- url: /(.*\.(bmp|gif|ico|jpeg|jpg|png))
+  static_files: _dist/\1
+  upload: _dist/(.*\.(bmp|gif|ico|jpeg|jpg|png))
+  secure: always
+
+# index files
+- url: /(.+)/
+  static_files: _dist/\1/index.html
+  upload: _dist/(.+)/index.html
+  secure: always
+
+- url: /(.+)
+  static_files: _dist/\1/index.html
+  upload: _dist/(.+)/index.html
+  secure: always
+
+- url: /
+  static_files: _dist/index.html
+  upload: _dist/index.html
+  secure: always

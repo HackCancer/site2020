@@ -1,31 +1,31 @@
 ---
 main:
-    - title: About us
-      url: /location/
-    - title: Evento 
+    - title: Event
       url: /event/
-    - title: Sponsor 
+    - title: About us
+      url: /about/
+    - title: Donations
       url: /sponsor/
     - title: FAQ
       url: /faq/
-    - title: Contacto
+    - title: Contact
       url: /contact/
 
 footer:
-    - title: Codigo de conducta
+    - title: Code of conduct
       url: /coc/
-    - title: Documentación
+    - title: Documentation
       url: /docs/
-    - title: Inscripción 
+    - title: Inscription 
       url: /register/
 
 legal:
-    - title: Terminos y condiciones
+    - title: Terms and conditions
       url: /terms/
-    - title: Privacidad
+    - title: Privacy
       url: /privacy/
-    - title: Organización 
+    - title: Organization
       url: /imprint/
 
-socialmedia: Siguenos !
+socialmedia: Follow us!
 ---

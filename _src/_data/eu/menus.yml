@@ -1,14 +1,14 @@
 ---
 main:
-    - title: Evento 
+    - title: Ekitaldia
       url: /event/
-    - title: Nosotros
+    - title: Nor gara 
       url: /about/
-    - title: Donar
+    - title: Babesleak 
       url: /sponsor/
     - title: FAQ
       url: /faq/
-    - title: Contacto
+    - title: Harremanetarako 
       url: /contact/
 
 footer:

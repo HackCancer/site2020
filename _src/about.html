@@ -8,6 +8,11 @@ title:
     es: Sobre nosotros 
     eu: Guri buruz 
 
+subtitle:
+    en: That's one effort for us, one big impact for research.
+    es: Un pequeño esfuerzo para nosotros, un gran impacto para la investigación. 
+    eu: Esfortzu txiki bat guretzako, eragin handia ikerkuntzan.
+
 narrow: true
 ---
 
@@ -16,3 +21,26 @@ narrow: true
 <h2 class="section__title">
     {{content.description.title}}
 </h2>
+
+{{content.description.content }}
+
+<h2 class="section__title">
+    {{content.origin.title}}
+</h2>
+
+{{content.origin.content }}
+
+<h2 class="section__title">
+    {{content.support.title}}
+</h2>
+
+{{content.support.content }}
+
+{% include caretakers.html %}
+
+<h2 class="section__title">
+    {{content.future.title}}
+</h2>
+
+{{content.future.content }}
+

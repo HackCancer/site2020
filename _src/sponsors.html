@@ -1,0 +1,43 @@
+---
+layout: page
+permalink: sponsor/ 
+lang: site.data["active_lang"]
+
+title:
+    en: Become a Caretaker
+    es: Creando herramientas para el futuro
+    eu: Dohaintzak
+subtitle:
+    en: Help HackCancer Datathon
+    es: Un vehiculo para unir fuerzas 
+
+narrow: true
+---
+
+{% assign content = site.data.sponsors %}
+
+<h2 class="section__title">
+    {{content.why.title}}
+</h2>
+
+{{content.why.content}}
+
+<h2 class="section__title">
+    {{content.how.title}}
+</h2>
+
+{{content.how.content}}
+
+<h2 class="section__title">
+    {{content.donation.title}}
+</h2>
+
+{{content.donation.content}}
+
+<div class="row">
+	<div class="section__actions" style="border-top: none;">
+		<a class="button button--primary button--large bold" id="register" href="#">{{content.donation.calltoaction}}</a>
+	</div>
+</div>
+
+

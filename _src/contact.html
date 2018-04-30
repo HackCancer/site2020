@@ -1,0 +1,23 @@
+---
+layout: page
+permalink: contact/ 
+lang: site.data["active_lang"]
+
+title:
+    en: Contact
+    es: Contacto
+    eu: Harremanetarako
+
+subtitle:
+    en: Get in touch with the organization 
+    es: Ponte en contacto con la organización
+    eu: Antolatzailekiko harremanetarako
+
+narrow: true
+css: page-contact
+js: page-contact
+---
+
+{% assign content = site.data.contact %}
+
+{% include form-contact.html %}

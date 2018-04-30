@@ -3,6 +3,9 @@
 <header class="header header--page">
     <div class="row">
         <h1 class="header__title">
+            {% if site.active_lang == "eu" and page.front_page %}
+	            <span class="glitch" data-text="MÏnbìzîā">Minbizia</span>ren
+            {% endif %}
             {{ page.title[site.active_lang] }}
 	        {% if page.front_page %}
                 {% unless site.active_lang == "eu" %}
