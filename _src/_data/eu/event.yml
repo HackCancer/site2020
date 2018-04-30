@@ -1,107 +1,112 @@
 ---
 description:
-    title: En qué consiste
+    title: Zertan datza
     content: |
-        Una Datathon es una especie de <b>maratón de análisis de datos</b>. Un
-        evento en el que durante 24 horas jovenes expertos en medicina,
-        ingeniería de datos, matemáticas... trabajarán <b>juntos en grupos</b>
-        para <b>buscar patrones </b>en diferentes bases de datos de cáncer. De
-        esta manera podrán colaborar diferentes expertos que no suelen trabajar
-        juntos en un mismo proyecto.
-    calltoaction: Inscribirse
+        Dathatoi bat, <b>analisi masiboen azterketa</b> moduko bat da.
+        24 orduz, matematiketan, medikuntzan, datu ingenieritzan.. adituak
+        diren gazteak, <b>taldeetan</b> elkarlana eginez, euren indarrak batuz
+        lan egingo dute <b>patroi bilaketa</b> egiteko <b>minbiziari buruzko
+        datuak dituzten</b> datu base ezberdinak erabiliz.
+        Helburua, aditu ezberdinen indarrak batzea da, egunerokoan batera
+        lan egiten ez duten adituak elkartuz proiektu berdinean lan egiteko.
+
+    calltoaction: Izen ematea
 
 place:
-    title: Fecha y Lugar
+    title: Data eta tokia
     content: |
-        El evento se celebra desde el Viernes <b>8 de Junio</b> a la tarde
-        hasta el Domingo <b>10 de Junio</b>. El evento así como el acto de
-        presentación se realizará en las instalaciones de <b>Orona Fundazioa
-        </b>en Hernani, Gipuzkoa
+        Ekitaldia <b>Ekainak 8 ostiral</b> arratsaldetik
+        <b>Ekainak 10 igandera </b> izango da. Bai ekitaldi eta bai aurkpezpen
+        saioa <b>Orona Fundazioan</b> izango dira, Hernanin, Gipuzkoa
+
 
 participants:
-    title: Participantes y roles
+    title: Partaideak eta rolak
     intro: |
-         Durante la datathon cada grupo dispondrá de varias figuras clave que
-         aportarán diferentes conocimientos al grupo de trabajo:
+         Talde bakoitza aditu ezberdinez egongo da osatuta,
+         jakintza-alor anitzeko taldea lortzeko:
+
     roles:
-    - name: Clínico 
+    - name: Kliniko
       description: |
-         Su figura aporta conocimiento en el campo del cancer desde la
-         perspectiva clínica. Su función será la de dirigir al grupo en base
-         a su conocimiento hacia diferentes herramientas que se puedan
-         construir en base a los datos o patrones de interes clínico. 
-    - name: Técnico 
+         Klinikoaren figurak, minbiziaren ezaguera emango du ikuspuntu
+         klinikotik bideratura. Bere funtzioa taldea gidatzea izango da,
+         klinika arloan interesgarriak izan daitezkeen datu baseak eta
+         patroiak tresna gisa eraikitzeko.
+
+    - name: Teknikaria
       description: |
-         Su figura aporta conocimiento en el campo del análisis de datos,
-         técnicas de machine learning así como estadística. Su función será
-         aportar las herramientas técnicas necesarias para conseguir el
-         resultado deseado.
-    - name: Investigador
+         Datu analisi arloko ezaguera, machine learning tektikak eta estatistika
+         izango dira bere ekarpen nagusienak. Funtsezko funtzioa, beharrezkoak
+         diren erreminta teknikoak erraztea izango da.
+
+    - name: Ikertzailea
       description: |
-         Su figura aporta conocimiento en la estrucuturación y orientación del
-         proyecto, búsqueda de conocimiento existente y conocimiento del área.
+         Ikertzailearen funtzioa, proiektuaren egitura eta orientazioa
+         bideratzea izango da.
 
 transportation:
-    title: Transporte al evento
+    title: Garraioa
     content: |
-        Su situación estratégica y el enorme número de infraestructuras con las
-        que cuenta han conseguido convertir a Donostia / San Sebastián en un
-        lugar de fácil acceso, conectado a través de todo tipo de transportes
-        con el resto del mundo.
-    calltoaction: Mas información
-    link: https://www.sansebastianturismo.com/es/venir/como-llegar
+        Bere kokapen estrategikoari eta dauzkagun azpiegitura ugariei esker,
+        oso erraza de Donostiara iristea, oso lotura ona baitu munduko
+        gainerako tokiekin.
+    calltoaction: Informazio gehiago
+    link: https://www.sansebastianturismo.com/eu/etorri/nola-iritsi
     venue: |
-         Para llegar a Orona, los <b>autobuses G1 y G2</b> tienen parada en las
-         propias instalaciones, parada <i>Galarreta</i>. También hay disponible
-         amplio Parking gratuito en frente de Orona Ideo.
-    calltovenue: Consultar horarios
-    linktovenue: http://www.lurraldebus.eus/eu/c/portal/layout?p_l_id=77744&p_p_id=56_INSTANCE_OLDM8n1F4EyK&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal&_56_INSTANCE_OLDM8n1F4EyK_articleId=159664 
+        <b>G1 eta G2</b> autobusek, geldiunea daukate Oronako instalazioetan
+        <i>Galarreta</i> izanarekin. Horretaz gain doaineko Parking-a dago
+        Orona Ideo parean
+
+    calltovenue: Ordutegiak kontsultatu
+    linktovenue: http://www.lurraldebus.eus/eu/c/portal/layout?p_l_id=77744&p_p_id=56_INSTANCE_OLDM8n1F4EyK&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal&_56_INSTANCE_OLDM8n1F4EyK_articleId=159664
 
 accomodation:
-    title: Alojamiento
+    title: Ostatu hartzea
     content: |
-         Donostia cuenta con una gran variedad de alojamientos turísticos para
-         todos los niveles. Desde la <b>organización nos pondremos en contacto
-         </b>con los participantes para ofrecerles la opción de <b>alojarse
-         junto con el resto de participantes de manera económica.</b>
-    calltoaction: Más información
-    link: https://www.sansebastianturismo.com/es/dormir/donde-dormir 
+         Donostian maila ezberdinetako alojamendu-turistiko aukera handia dago.
+         <b>Gure organizaziotik partaideekin kontaktuak jarriko gara</b>
+         <b>gainerako partaideekin batera ostatu eman</b> eta aukera merke bat
+         eskeintzeko.
+
+    calltoaction: Informazio gehiago
+    link: https://www.sansebastianturismo.com/es/dormir/donde-dormir
 
 timetable:
-    title: Horario
+    title: Ordutegia
     days:
-    - str: 8 de Junio
+    - str: Ekainak 8
       schedule:
-      - time: 17.00 - 18.00 
-        name: Presentación del evento, logística y grupos 
-      - time: 18.15 - 19.30 
-        name: Tutoría grupal sobre materiales y actividades 
-      - time: 19.30 - 20.00 
-        name: Recapitulación de horarios, transportes 
-      - time: 20.30 - 23.00 
-        name: Pintxos por Donostia [Fuera de programa]
-    - str: 9 de Junio
+      - time: 17.00 - 18.00
+        name: Ekitaldiaren aurkezpena, logistika eta taldeak
+      - time: 18.15 - 19.30
+        name: "Talde tutoria: aktibitateak eta materiala"
+      - time: 19.30 - 20.00
+        name: Ordutegi eta garraioa
+      - time: 20.30 - 23.00
+        name: Donostia zentruan pintxoak [Programaz kanpo]
+    - str: Ekainak 9
       schedule:
-      - time: "09.00" 
-        name: <i>Comienzo de la datathon</i>
+      - time: "09.00"
+        name: <i>Dathatoiaren hasiera</i>
       - time: 09.30 - 13.00
-        name: Cafe self-service
-      - time: 13.30 - 14.30 
-        name: Descanso para comer 
+        name: Self-service Kafea
+      - time: 13.30 - 14.30
+        name: Otordua
       - time: 17.00 - 20.45
-        name: Cafe self-service
-      - time: 20.45 - 22.00 
-        name: Descanso para cenar 
+        name: Self-service Kafea
+      - time: 20.45 - 22.00
+        name: Afalordua
       - time: 22.00 - 08.45
-        name: Cafe self-service
-    - str: 10 de Junio
+        name: Self-service Kafea
+    - str: Ekainak 10
       schedule:
-      - time: "09.00" 
-        name: <i>Fin de la datathon</i> 
-      - time: 16.00 - 17:00 
-        name: Ensayo general 
-      - time: 17.00 - 17:30 
-        name: <i><u>Apertura de puertas</u>, presentación y resultados</i>
+      - time: "09.00"
+        name: <i>Dathatoiaren bukaera</i>
+      - time: 16.00 - 17:00
+        name: Proba orokorra
+      - time: 17.00 - 17:30
+        name: <i><u>Ate irekiak</u>, aurkezpena eta emaitzak</i>
       - time: 17.30 - 18.30
-        name: Entrega de premios y beca
+        name: Sari eta beka banaketa
 ---

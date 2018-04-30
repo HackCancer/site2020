@@ -1,9 +1,9 @@
 form:
-    name: Nombre y apellidos
-    email: Correo electrónico
-    message: Mensaje para los organizadores
-    calltoaction: Enviar
-    reqbefore: Es necesario rellenar los campos con
-    reqafter: ", gracias."
-    thanks: Gracias por ponerte en contacto, te responderemos en breves
-    error: Ooops, ha habido un error, ponte en contacto directamente via email
+    name: Izen abizenak
+    email: Email helbidea 
+    message: Zure mezua 
+    calltoaction: Bidali 
+    reqbefore: "" 
+    reqafter: dituzten hutsuneak bete mesedez
+    thanks: Eskerrik asko harremanetan jartzeagatik, laister erantzungo dizugu.
+    error: Ooops, arazoren bat egon da. Mesedez email helbidera idatzi zuzenean. 

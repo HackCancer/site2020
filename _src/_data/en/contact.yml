@@ -1,9 +1,9 @@
 form:
-    name: Nombre y apellidos
-    email: Correo electrónico
-    message: Mensaje para los organizadores
-    calltoaction: Enviar
-    reqbefore: Es necesario rellenar los campos con
-    reqafter: ", gracias."
-    thanks: Gracias por ponerte en contacto, te responderemos en breves
-    error: Ooops, ha habido un error, ponte en contacto directamente via email
+    name: Name &amp; Surname
+    email: Email 
+    message: Your message 
+    calltoaction: Send 
+    reqbefore: Please, fill all the inputs with a 
+    reqafter: on it, thanks.
+    thanks: Thanks for contacting us, we will respond shortly. 
+    error: Ooops, there has been an error, contact directly via email. 

@@ -33,13 +33,13 @@ roadmap:
         - net: Evento
           target: HackCancer 2018
           status: planned
-          time: June 8-10, 2018
+          time: Junio 8-10, 2018
 
 # ------------------------------------------------------------------------------
 
 caretakers:
     title: Objetivo 
-    calltoaction: Sponsoriza la investigación
+    calltoaction: Esponsoriza la investigación
     description: |
         El evento sirve de vehículo para la <b>obtener donaciones</b> para la
         asociación ASPANOGI, que destinará el dinero obtenido para apoyar la
@@ -51,7 +51,7 @@ caretakers:
 
 # ------------------------------------------------------------------------------
 newsletter:
-    title: Mantenete al día via email 
+    title: Mantnete al día via email 
     placeholder: Dirección de email
     action: Suscribirse
     promise: |

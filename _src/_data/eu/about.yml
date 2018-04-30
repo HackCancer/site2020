@@ -1,27 +1,28 @@
 description:
-    title: Quienes somos 
+    title: Nor gara
     content: |
-       Somos un grupo de voluntarios multidisciplinar formado por médicos,
-       ingenieros y matemáticos con una meta común, abrir nuevas líneas de
-       investigación en el campo del Cáncer haciendo uso de las últimos
-       avances del mundo del análisis de datos. 
+       Jakintza-alor anitzeko taldebat gara, medikuz, ingenieri, matematikari
+       eta boluntarioz osatutakoa. Helburu komun bat daukagu, minbiziaren
+       arloak ikerketa bide berriak sortzea, datu analisi munduko aurrerapenak
+       tresna gisa erabiliz.
+
 origin:
-    title: Origen
+    title: Jatorria
     content: |
-       Ser diagnosticado con cáncer no mola por ello un grupo de amigos en
-       Londres decidió hacer algo al respecto y HackCancer nació. Del 10
-       al 11 de Octubre de 2015, cuarenta de los mejores desarrolladores
-       y medicos de todo el mundo, se reunieron en Google Campus para
-       crear productos para combatir el cáncer.
+       Minbizia diagnostikatua izatea ez da gustukoa. Londreseko talde lagun
+       batek, bere harri koskorra jarri nahi izan zuen minbiziaren aurka
+       indarrak batzeko, horrela HackCancer sortu zuten. 2005eko Urriak 10tik
+       11ra, munduko 40 teknikari eta mediku elkartu ziren Google Campusean,
+       minbizaren aurkako produktuak sortu ahal izateko.
        <br><br>
-       Ahora la comunidad que se creó ha decidió mantener el
-       proyecto y estamos montando el próximo capítulo, un Datathon.
+       Sortutako komunitateak proiektua mantentzea erabaki zuen.
+       Guk hurrengo kapitulia sortu nahi dugu, Dathatoi bat.
 
 support:
-    title: Entidades sumadas a la causa
+    title: Babesleak
     content: |
-         Actualmente las entidades que se han sumado a proyecto son :
+         Orain arte batutako babesleak ondorengoak dira: 
 
 # future:
-#     title: false 
-#     content: false 
+#     title: false
+#     content: false

@@ -12,20 +12,20 @@ main:
       url: /contact/
 
 footer:
-    - title: Codigo de conducta
+    - title: Jokabide kodea
       url: /coc/
-    - title: Documentación
+    - title: Dokumentazioa
       url: /docs/
-    - title: Inscripción 
+    - title: Izen eman 
       url: /register/
 
 legal:
-    - title: Terminos y condiciones
+    - title: Lege Oharrak
       url: /terms/
-    - title: Privacidad
+    - title: Pribatutasuna 
       url: /privacy/
-    - title: Organización 
+    - title: Erakundea 
       url: /imprint/
 
-socialmedia: Siguenos !
+socialmedia: Jarrai gaitzazu!
 ---

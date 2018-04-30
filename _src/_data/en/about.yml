@@ -1,26 +1,25 @@
 description:
-    title: Quienes somos 
+    title: Who we are 
     content: |
-       Somos un grupo de voluntarios multidisciplinar formado por médicos,
-       ingenieros y matemáticos con una meta común, abrir nuevas líneas de
-       investigación en el campo del Cáncer haciendo uso de las últimos
-       avances del mundo del análisis de datos. 
+        We are a group of multidisciplinary volunteers formed by doctors,
+        engineers and mathematicians with a common goal, to open new lines of
+        research in the field of cancer using  of the latest advances of the
+        data science field.
 origin:
-    title: Origen
+    title: Inception 
     content: |
-       Ser diagnosticado con cáncer no mola por ello un grupo de amigos en
-       Londres decidió hacer algo al respecto y HackCancer nació. Del 10
-       al 11 de Octubre de 2015, cuarenta de los mejores desarrolladores
-       y medicos de todo el mundo, se reunieron en Google Campus para
-       crear productos para combatir el cáncer.
-       <br><br>
-       Ahora la comunidad que se creó ha decidió mantener el
-       proyecto y estamos montando el próximo capítulo, un Datathon.
+        Being diagnosed with cancer sucks, for that reason a group of friends
+        in London decided to do something about it and HackCancer was born.
+        From October 10 to 11, 2015, forty of the best developers and doctors
+        from around the world met on Google Campus to create products to fight
+        cancer.
 
+        Now the community that was created during the event has decided to keep
+        up with the project and we are setting up the next chapter, a Datathon.
 support:
-    title: Entidades sumadas a la causa
+    title: Caretakers
     content: |
-         Actualmente las entidades que se han sumado a proyecto son :
+        These are the companies and / or associations that have joined the cause:
 
 # future:
 #     title: false 

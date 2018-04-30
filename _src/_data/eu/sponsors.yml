@@ -1,12 +1,12 @@
 why:
-    title: ¿ Por qué donar ? 
+    title: Zergatik ? 
     content: |
         Donar a ASPANOGI nos ayudará a combatir el cáncer infantil y traer
         tratamientos que cambian la vida y que salvan vidas a los niños y
         adolescentes con cáncer.
 
 how:
-     title: ¿ Cómo hacer la donación ? 
+     title: Nola ? 
      content: |
         HackCancer no es mas que un vehiculo, una excusa para dar visibilidad
         a ASPANOGI y poder así sumar fuerzas en las donaciones en la lucha
@@ -14,8 +14,8 @@ how:
         siguientes pasos.
 
 donation:
-    title: Quiero patrocinar el evento
-    calltoaction: Descargar tabla de patrocinios
+    title: Babeslea izateko pausuak 
+    calltoaction: Taula deskargatu 
     content: |
         Si quieres convertirte en un patrocinador del evento, disponemos de
         varios niveles de patrocinio. Descargate el PDF con más información y
