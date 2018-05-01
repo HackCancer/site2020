@@ -1,22 +1,24 @@
 why:
-    title: Zergatik ? 
+    title: Zergatik ?
     content: |
-        Donar a ASPANOGI nos ayudará a combatir el cáncer infantil y traer
-        tratamientos que cambian la vida y que salvan vidas a los niños y
-        adolescentes con cáncer.
+        ASPANOGI asoziazioari dohaintza egiteak haur minbiziaren aurkako
+        borrokan lagunduko digu. Tratamendu berriekin bizitzak aldatu eta hobetu
+        ditzakegu, eta nork daki, agian gaixotasuna gainditzeko behar den
+        harrikoxkorra jarri, proiektuak eta ikerketak aurrera bultzatzen
+        baditugu.
 
 how:
-     title: Nola ? 
+     title: Nola ?
      content: |
-        HackCancer no es mas que un vehiculo, una excusa para dar visibilidad
-        a ASPANOGI y poder así sumar fuerzas en las donaciones en la lucha
-        contra el cancer. Ponte en contacto con nosotros y te indicaremos los
-        siguientes pasos.
+        HackCancer garraioibide bat besterik ez da, ASPANOGIRI ikusbidea
+        emateko aitzakia. Dirulaguntza eta dohaintzak
+        gehituz, minbiziaren aurkako indarrak batu nahi ditugu. Jar zaitez
+        gurekin kontuaktuan eta hurrengo pausoak zehatuko dizkizugu.
 
 donation:
-    title: Babeslea izateko pausuak 
-    calltoaction: Taula deskargatu 
+    title: Babeslea izateko pausuak
+    calltoaction: Taula deskargatu
     content: |
-        Si quieres convertirte en un patrocinador del evento, disponemos de
-        varios niveles de patrocinio. Descargate el PDF con más información y
-        ponte en contacto con nosotros para seguir adelante.
+        Gure babesletako bat izan nahi baduzu, jakin babes maila ezberdinak
+        ditugula. Deskargatu informazio gehiagorekin dugun PDF-a eta jar
+        zaitez gurekin kontatuan aurrera jarraitzeko.

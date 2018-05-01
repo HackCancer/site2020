@@ -57,6 +57,11 @@ handlers:
   upload: _dist/(.*\.woff)
   secure: always
 
+- url: /(.*\.pdf)
+  mime_type: application/pdf
+  static_files: _dist/\1
+  upload: _dist/(.*\.pdf)
+
 # images
 - url: /(.*\.(bmp|gif|ico|jpeg|jpg|png))
   static_files: _dist/\1
