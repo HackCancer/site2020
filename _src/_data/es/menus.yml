@@ -12,7 +12,7 @@ main:
       url: /contact/
 
 footer:
-    - title: Codigo de conducta
+    - title: Código de conducta
       url: /coc/
     - title: Documentación
       url: /docs/
@@ -20,12 +20,12 @@ footer:
       url: /register/
 
 legal:
-    - title: Terminos y condiciones
+    - title: Términos y condiciones
       url: /terms/
     - title: Privacidad
       url: /privacy/
     - title: Organización 
       url: /imprint/
 
-socialmedia: Siguenos !
+socialmedia: Síguenos !
 ---

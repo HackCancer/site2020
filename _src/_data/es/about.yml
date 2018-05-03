@@ -1,26 +1,26 @@
 description:
-    title: Quienes somos 
+    title: Quiénes somos 
     content: |
        Somos un grupo de voluntarios multidisciplinar formado por médicos,
-       ingenieros y matemáticos con una meta común, abrir nuevas líneas de
-       investigación en el campo del Cáncer haciendo uso de las últimos
+       ingenieros y matemáticos con una meta común: abrir nuevas líneas de
+       investigación en el campo del cáncer haciendo uso de las últimos
        avances del mundo del análisis de datos. 
 origin:
     title: Origen
     content: |
-       Ser diagnosticado con cáncer no mola por ello un grupo de amigos en
-       Londres decidió hacer algo al respecto y HackCancer nació. Del 10
+       Ser diagnosticado con cáncer no mola, y por ello un grupo de amigos en
+       Londres decidió hacer algo al respecto, naciendo HackCancer. Del 10
        al 11 de Octubre de 2015, cuarenta de los mejores desarrolladores
-       y medicos de todo el mundo, se reunieron en Google Campus para
+       y médicos de todo el mundo se reunieron en Google Campus para
        crear productos para combatir el cáncer.
        <br><br>
        Ahora la comunidad que se creó ha decidió mantener el
-       proyecto y estamos montando el próximo capítulo, un Datathon.
+       proyecto y estamos preparando el próximo capítulo: un Datathon.
 
 support:
     title: Entidades sumadas a la causa
     content: |
-         Actualmente las entidades que se han sumado a proyecto son :
+         Actualmente las entidades que se han sumado al proyecto son :
 
 # future:
 #     title: false 
