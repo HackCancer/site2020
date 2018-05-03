@@ -11,7 +11,7 @@ roadmap:
         grupo de <b>desarrolladores y médicos </b> se reunirán en Donostia - San
         Sebastián para dar lo mejor de sí mismos para la investigación contra 
         el cáncer. 
-    calltoaction: Inscribete
+    calltoaction: Inscríbete
     calltotimetable: Horario
     steps:
         - net: Organización
@@ -39,21 +39,21 @@ roadmap:
 
 caretakers:
     title: Objetivo 
-    calltoaction: Esponsoriza la investigación
+    calltoaction: Patrocina la investigación
     description: |
-        El evento sirve de vehículo para la <b>obtener donaciones</b> para la
+        El evento sirve de vehículo para <b>obtener donaciones</b> para la
         asociación ASPANOGI, que destinará el dinero obtenido para apoyar la
         investigación contra el cáncer infantil desde el instituto Biodonostia.
     members:
         title: Sponsors
         description: |
-            Estas son las empresas y/o asociaciones que se han sumado a la causa:
+            Éstas son las empresas y/o asociaciones que se han sumado a la causa:
 
 # ------------------------------------------------------------------------------
 newsletter:
-    title: Mantnete al día via email 
+    title: Mantente al día vía email 
     placeholder: Dirección de email
     action: Suscribirse
     promise: |
         Nunca usaremos la información de contacto para nada más que la entrega
-        de nuestro boletín informativo. 
+        de nuestro boletín informativo.
