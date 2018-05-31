@@ -1,18 +1,15 @@
-- question: ¿Qué es HackCancer?
+- question: Zer da HackCancer?
   answer: |
-    Una Datathon, una especie de maratón de investigación. Se trata un evento
-    en el que durante 24 horas expertos internacionales en medicina, ingeniería
-    de datos, matemáticas... trabajarán juntos en grupos para buscar patrones,
-    generar algoritmo predictivos etc… sobre diferentes bases de datos de cáncer
-    que estamos preparando. De esta manera podrán colaborar expertos que no
-    suelen trabajar juntos.
+    Datathoi bat, ikerkuntza maratoi moduko bat da. 24 ordu iraungo duen ekitaldi bat da,
+    non medikuntzako, datu ingeniaritzako eta matematiketako nazioarteko adituak minbizi ezberdinen
+    datu base ezberdinetatik ezagutza mehatuz herramienta eta algoritmo ezberdinak ateratzen saiatuko diren.
+    Modu honetan orokorrean batera lan egiten ez duten aditu ezberdinak batera lan egingo dute.
 
-- question: ¿Quienes somos?
+- question: Nortzuk gara?
   answer: |
-    Somos un grupo de voluntarios multidisciplinar formado por médicos,
-    ingenieros y matemáticos con una meta común, abrir nuevas líneas de
-    investigación en el campo del Cáncer haciendo uso de las últimos avances
-    del mundo del análisis de datos.
+    Medikuz, ingeniariz eta matematikariz osatutako bolondres talde bat gara, 
+    helmuga bakar batekin, Minbiziaren inguruan ikerketa berriak irekitzearena. 
+    Betiere datu analisien azken aurrerapenak aplikatuz.
       
 - question: ¿En qué consiste la investigación a la que se destina la donación? 
   answer: |
