@@ -39,6 +39,20 @@
      Algoritmos capaces de generalizar comportamientos a partir de una
      información suministrada en forma de ejemplos. 
 
+- question: ¿Quién el Rotary Club de San Sebastián? 
+  answer: |
+     El Rotary club de san Sebastián es una asociación sin ánimo
+     de lucro que de acuerdo con su estatutos busca mejorar la calidad de vida
+     de los residentes su localidad.
+     <br><br>Su papel ha sido fundamental para relanzar el nuevo datathon
+     encargándose desde la búsqueda de patrocinadores, local y cientos de
+     gestiones para sacar adelante este proyecto.
+     <br><br>En estos momentos las áreas de prioridad de los proyectos en que Rotary está trabajando son:
+     <ul><li>El apoyo a niños con cáncer o con otras enfermedades de larga hospitalización y a sus familias.</li>
+     <li>Apoyo a discapacitado y actuaciones destinadas para su integración social.</li>
+     <li>Apoyo para la integración de colectivos marginales en la sociedad.</li>
+     <li>Todos los proyectos se pueden consultar en nuestra página web www. rotaryclubsnsn.org</li></ul>
+
 - question: ¿Cual es el papel de ASPANOGI?
   answer: |
      ASPANOGI es la asociación de padres de niños oncológicos de Gipuzkoa. Es

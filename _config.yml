@@ -2,8 +2,8 @@
 # --------------------
 title:          "HackCancer"
 description:    "The crossroad event between Health and Data Science"
-url:            "http://hackcancer.eu"
-analyticsID:    ""
+url:            "https://hackcancer.eus"
+analyticsID:    "UA-72142778-5"
 
 # Form actions
 forms:

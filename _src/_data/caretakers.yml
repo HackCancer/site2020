@@ -1,12 +1,30 @@
 
+- name: Rotary Club Donostia 
+  link: http://www.rotaryclubsnsn.org/ 
+
+- name: Laboral Kutxa
+  link: https://www.laboralkutxa.com/ 
+
+- name: Gipuzkoako Foru Aldundia
+  link: http://www.gipuzkoa.eus/
+
 - name: Orona
   link: http://www.oronafundazioa.org/
 
+- name: Osakidetza
+  link: https://www.osakidetza.euskadi.eus/r85-ghodon00/es/
+
+- name: Biodonostia
+  link: http://www.biodonostia.org/
+
+- name: IMQ
+  link: https://www.imq.es/ 
+
+- name: Gaia
+  link: http://www.gaia.eus/
+
 - name: IOMED
   link: https://iomed.es/es
-
-- name: Rotary Club Donostia 
-  link: http://www.rotaryclubsnsn.org/ 
 
 - name: NARU
   link: https://www.naruintelligence.com/
