@@ -1,32 +1,9 @@
-# The Basics
-# --------------------
-title:          "HackCancer"
-description:    "The crossroad event between Health and Data Science"
-url:            ""
+title:             HackCancer 2020
+email:             hi@hackcancer.eu
+description:
+author:            oiertwo
 
-analyticsID:    ""
-
-# Form actions
-forms:
-    contact: 'https://formspree.io/hi@hackcancer.eu'
-    newsletter: "https://iomed.us12.list-manage.com/subscribe/post?u=4d1374c88688ad88704c94eeb&amp;id=89074ad53e"
-
-# Urls
-# --------------------
-permalink:      /:title/
-
-
-# Generator
-# --------------------
-source:         ./_src
-destination:    ./_dist
-
-
-# Plugins
-# --------------------
-plugins:
-    - jekyll-sitemap
-    - jekyll-redirect-from
-
-exclude:
-    - "*README.md"
+# Social Profiles
+twitter_username: hackcancer_data
+github_username: hackcancer
+facebook_username:
