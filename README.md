@@ -1,4 +1,7 @@
 # HackCancer 2020 Website 
+
+* All pushes to this repository updates https://hackcancer.github.io repository and website.
+
 ## New Event Theme adapted for Jekyll and for HackCancer 2020 Datathon
 
 [New Event](https://templatemo.com/tm-486-new-event) is a theme for [Jekyll](https://jekyllrb.com) adapted from the [Bootstrap](https://getbootstrap.com/) based theme with the same name from the good folks at [templatemo](http://templatemo.com/).
