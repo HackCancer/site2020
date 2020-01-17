@@ -1,0 +1,36 @@
+<!-- =========================
+    MENTORS SECTION
+============================== -->
+<section id="speakers" class="parallax-section">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-12 col-sm-12 wow bounceIn">
+				<div class="section-title">
+					<h2>Datathon Mentors</h2>
+					<p>Mentors are expert people that are open to help hackathon participants. If you think you can be one please contact us to become a mentor.</p>
+					<p>Mentors will be accesible during the conference/Datathon for all the teams equally</p>
+				</div>
+			</div>
+
+			<!-- Testimonial Owl Carousel section
+			================================================== -->
+			<div id="owl-speakers" class="owl-carousel">
+
+{% for mentor in site.data.mentors %}
+<div class="item wow fadeInUp col-md-3 col-sm-3" data-wow-delay="0.9s">
+	<div class="speakers-wrapper">
+		<img src="{{mentor.img}}" class="img-responsive" alt="speakers">
+			<div class="speakers-thumb">
+				<h3>{{ mentor.name }}</h3>
+				<h6>{{ mentor.description }}</h6>
+			</div>
+	</div>
+</div>
+{% endfor %}
+
+			</div>
+
+		</div>
+	</div>
+</section>

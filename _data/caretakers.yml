@@ -1,0 +1,11 @@
+- name: Caretaker 1
+  img: images/sponsor-img1.jpg
+
+- name: Caretaker 2
+  img: images/sponsor-img2.jpg
+
+- name: Caretaker 3
+  img: images/sponsor-img3.jpg
+
+- name: Caretaker 4
+  img: images/sponsor-img4.jpg

@@ -1,0 +1,15 @@
+- name: Alberto Lafarga
+  img: images/speakers-img1.jpg
+  description: Profesor at University of Navarra and helper of HackCancer 2020.
+
+- name: Gabriel Maeztu
+  img: images/speakers-img2.jpg
+  description: CTO of IOMED, HackCancer Organizer and Head of Data.
+
+- name: Oier Echaniz
+  img: images/speakers-img3.jpg
+  description: Somewhere over the raibow. HackCancer Organizer. Wheelchair master.
+
+- name: Eider Sanchez
+  img: images/speakers-img4.jpg
+  description: The Girl. The Boss. The everything.
