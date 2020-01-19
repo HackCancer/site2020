@@ -8,3 +8,4 @@ yarn.lock
 .yarnclean
 .bundle
 package-lock.json
+.jekyll-cache

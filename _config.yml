@@ -7,3 +7,9 @@ author:            oiertwo
 twitter_username: hackcancer_data
 github_username: hackcancer
 facebook_username:
+
+site_url: ""
+
+show_mentors: false
+show_faq: false
+show_program: false

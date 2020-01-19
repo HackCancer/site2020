@@ -28,7 +28,8 @@ branches:
 install:
   - gem install jekyll html-proofer
 script:
-  - jekyll build 
+  - jekyll build
+#  - htmlproofer ./_site
 
 deploy:
   provider: pages

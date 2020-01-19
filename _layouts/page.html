@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{% include head.html %}
+</head>
+<body data-spy="scroll" data-offset="50" data-target=".navbar-collapse">
+{% include preloader.html %}
+{% include navigation.html %}
+
+
+<!-- =========================
+    PAGE CONTENT SECTION
+============================== -->
+
+<div style="height:150px; width:100%; clear:both;"></div>
+
+<section id="page" class="parallax-section">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-md-12 col-sm-12 wow bounceIn">
+				<div class="section-title">
+
+          {{ content }}
+
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>
+
+{% include footer.html %}
+{% include scripts.html %}
+</body>
+</html>
