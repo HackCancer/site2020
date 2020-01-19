@@ -10,6 +10,14 @@ facebook_username:
 
 site_url: ""
 
+# INTRO AREAS SHOW OR NOT
+
 show_mentors: false
 show_faq: false
 show_program: false
+
+# BACKGROUND IMAGES IN INTRO AREAS
+css_img_intro_bg: images/intro-bg.jpg #default value: intro-bg.jpg
+css_img_register_bg: images/hack_leds.jpg # default value: register-bg.jpg
+css_img_venue_bg: images/bizkaia_aretoa.jpg # default value: venue-bg.jpg
+css_img_contact_bg: images/contact-bg.jpg # default value: contact-bg.jpg

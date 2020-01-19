@@ -4,6 +4,10 @@ New Event
 
 http://www.templatemo.com/tm-486-new-event
 
+For HACKCANCER 2020 I am using this colors:
+
+ https://www.colorhexa.com/c7a5d8
+ 
 */
 
 body {
@@ -194,7 +198,7 @@ footer {
 -----------------------------------------*/
 .custom-navbar {
     margin-bottom: 0;
-    background-color:   #e8daef  ;
+    background-color: #a670c1;
 }
 
 .custom-navbar .navbar-brand {
@@ -205,7 +209,7 @@ footer {
 }
 
 .custom-navbar .nav li a {
-    color: #ddd;
+    color: #e8daef;
     font-size: 12px;
     font-weight: 500;
     letter-spacing: 0.6px;
@@ -216,7 +220,7 @@ footer {
 
 .custom-navbar .nav li a:hover {
     background: transparent;
-    color:   #e8daef  ;
+    color:   #a5b6d8  ;
 }
 
 .custom-navbar .navbar-nav > li > a:hover,
@@ -226,7 +230,7 @@ footer {
 
 .custom-navbar .nav li.active > a {
     background-color: transparent;
-    color: #66ccff;
+    color: #a5b6d8;
 }
 
 .custom-navbar .navbar-toggle {
@@ -239,7 +243,7 @@ footer {
 }
 
 .custom-navbar .navbar-toggle .icon-bar {
-    background:   #e8daef  ;
+    background:   #d8c7a5  ;
     border-color: transparent;
 }
 
@@ -250,7 +254,7 @@ footer {
         background: 0 0;
     }
     .custom-navbar.top-nav-collapse {
-        background:  #7d3c98 ;
+        background:  #a670c1 ;
         padding: 0;
     }
 
@@ -262,7 +266,7 @@ footer {
     Intro section
 -----------------------------------------*/
 #intro {
-    background: url('../images/intro-bg.jpg') 50% 0 repeat-y fixed;
+/*    background: url('../images/intro-bg.jpg') 50% 0 repeat-y fixed;*/
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -420,7 +424,7 @@ footer {
     Regsiter section
 -----------------------------------------*/
 #register {
-    background: url('../images/register-bg.jpg') 50% 0 repeat-y fixed;
+/*    background: url('../images/register-bg.jpg') 50% 0 repeat-y fixed;*/
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
@@ -526,7 +530,7 @@ footer {
    Venue section
 -----------------------------------------*/
 #venue {
-    background: url('../images/venue-bg.jpg') 50% 0 repeat-y fixed;
+/*    background: url('../images/venue-bg.jpg') 50% 0 repeat-y fixed;*/
     background-size: cover;
     background-position: center center;
     padding-top: 7rem;
@@ -553,7 +557,7 @@ footer {
    Contact section
 -----------------------------------------*/
 #contact {
-    background: url('../images/contact-bg.jpg') 50% 0 repeat-y fixed;
+/*    background: url('../images/contact-bg.jpg') 50% 0 repeat-y fixed;*/
     background-size: cover;
     background-position: center center;
 }
