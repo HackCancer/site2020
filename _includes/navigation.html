@@ -19,11 +19,17 @@
 				{% if site.show_mentors == true %}
 				<li><a href="{{site.site_url}}/index.html#speakers" class="smoothScroll">Mentors</a></li>
 				{% endif %}
-				<!-- <li><a href="{{site.site_url}}/index.html#program" class="smoothScroll">Programs</a></li> -->
+
+				{% if site.show_program == true %}
+				<li><a href="{{site.site_url}}/index.html#program" class="smoothScroll">Programs</a></li>
+				{% endif %}
+
 				<li><a href="{{site.site_url}}/index.html#register" class="smoothScroll">Register</a></li>
 				<li><a href="{{site.site_url}}/index.html#venue" class="smoothScroll">Venue</a></li>
 				<li><a href="{{site.site_url}}/index.html#sponsors" class="smoothScroll">Caretakers</a></li>
 				<li><a href="{{site.site_url}}/index.html#contact" class="smoothScroll">Contact</a></li>
+
+
 			</ul>
 		</div>
 	</div>

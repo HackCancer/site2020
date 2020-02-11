@@ -12,37 +12,35 @@ Our non-profit organisation relies on sponsors like you who see the value of sup
 # NEED TO KNOW
 
 This year HackCancer will go together with EuroScipy 2020 and GeoPython, being
-EuroPython as head of the organization. In this page we are giving small packages for
-HAckCancer 2020 Datathon Caretakers, but we are able to give combined tiers with
-EuroScipy and HackCancer conferences. Both Conference will bring more than 300 scientists
-together in the same venue with more than 50 talks and 4 parallel tracks with HackCancer
-Datathon happening together.
+EuroPython as head of the organization. In this page we are giving small packages specific for
+HackCancer 2020 Datathon Caretakers, all of the money collected here will have a final destination which is a GRANT. A GRANT related with childhood cancer and will be donated to ASPANOGI, a local society that takes
+care of childs with cancer.
 
-EuroScipy 2020 sponsoring information is available [here](https://www.euroscipy.org/2020/sponsoring.html)  
+If you are interested in something different or you want to sponsor the conference we
+encourage you to contact EuroScipy sponsoring team, you have all their sponsoring information [here](https://www.euroscipy.org/2020/sponsoring.html) the conference will bring more than 300 scientists
+together in the same venue with more than 50 talks and 4 parallel tracks. Helping Euroscipy conference
+you also help us.
 
 ## Special HackCancer TIERS
 
-### HackCancer Diamond
+### HackCancer DIAMOND CARETAKER
 
-* Minimum donation: 2000€ + VAT.
+* Minimum donation: 2000€
 * Maximum: 4 Sponsors.
 * Prize Sponsorship: One of the prizes will be sponsorized by you. Your logo will be in the diploma and the trophy.
-* Logo everywhere. Website, T-shirt, Rollups... everywhere.
-* Money will be used monstly to finance the final GRANT.
+* Logo everywhere. Website, Rollups... everywhere.
 
-### HackCancer FINAID.
+### HackCancer HELPER.
 
-* Minimum donation: 0€ + VAT
+* Institution helping bringing one of his/her emplyees as speaker, instructor, mentor or jury.
 * Logo everywhere
-* Money will be used to help Mentors, Attendees and Speakers to attend the event.
 
-### HackCancer Money Caretaker
+### HackCancer CARETAKER
 
-* Money donation.
-* Logo everywhere.
-* Money will be used monstly to finance the final GRANT.
+* Money donation. (minimum donation for friday presentation ticket: 200€)
+* Logo everywhere.(minimum donation 1€)
 
-### HackCancer Prize Caretaker.
+### HackCancer PRIZE CARETAKER.
 
 * Prize donation (key for products, books...).
 * Logo everywhere.
