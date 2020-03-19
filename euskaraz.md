@@ -1,6 +1,13 @@
 ---
 layout: page
 ---
+# COVID19 BIRUSA
+
+COVID19 BIRUSA dela eta EUROSCIPY 2020 kongresua 2021 urtera atzeratu da, beraz gu lekurik gabe geratu gara aurtengo datathona egiteko. Ondorioz alternatibak bilatzen gaude HackCancer Datathona egiteko, bai aurten edo hurrengo urtera pasatzeko. Gure ohiko kanaletan emango dizuego berri. Webgune hau ez da gure kanal ofiziala eta ez dugu eguneratzen, ez daukagu horretarako planifikatuta eta, informazioa behar baduzue beste kanalak erabili mesedez.
+
+Hemendik aurrera agertzen den informazio guztia ez dago eguneratua eta ez dator bat orain HackCancer izango denarekin. Zegurazki gauza asko aldatuko direlako hurengo egunetan eta HackCancer-en antolakuntzan. Eguneraketak gure beste ohiko lekuetan jarriko ditugu, Whatsapp txata eta twitterrean, jarraitu kanal oriek eguneratuta egoteko edo jarri gurekin harremanetan pertsonalki informazio konkretuagoa izateko, orri onen bukaeran dituzue gure kontaktu datuak.
+
+Zaindu datozen garai hauetan eta Datathonean ikusiko gara, bai aurten edo hurrengo urtean!
 
 # Ekitaldia
 

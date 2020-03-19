@@ -2,6 +2,13 @@
 layout: page
 ---
 
+# ANUNCIO COVID19 VIRUS
+
+DEVIDO AL COVID19 Todo el evento queda anulado a como esta previsto y lo estamos replanificando. Iremos dandao noticias por los diferentes canales abiertos que tenemos (Whatsapp y twitter y actualizaremos la web definitivamente y daremos por definitiva la informacion de esta web cuando este en su hosting original en hackcacner.eu o hackcancer.eus). Podeis poneron en contacto con nosotros para saber de los pasos que estamos dando pero de momento el evento con el que ivamos en conjunto EUROSCIPY ha sido cancelado y aplzado a 2021 por lo que nosotros nos hemos quedado sin localizacion para este 2020 y estamos buscando un nuevo sitio para poder hacer el evento este 2020. Veremos si somos capaces de hacer Hackcancer este 2020 sino lo aplazaremos a 2021 tambien. 
+
+# Toda esta informacion es la informacion que teniamos cuando estaba planeado con EuroSciPy 2020. No hacer caso ya que la mayoria de la informacion puede que no este actualizado y no sea util.
+
+
 # Vision del evento
 
 Ser diagnosticado de Cáncer no es de agrado de nadie y un grupo de amigos en Londres decidió
